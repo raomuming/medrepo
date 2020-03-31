@@ -38,15 +38,15 @@ class Container extends React.Component {
   }
 
   render() {
-    const { collapsed, theme, mode } = this.state
-    const { router } = this.props
-    const selectedKey = router.location.pathname.split('/')[1]
-    let openKey = ''
+    const { collapsed, theme, mode } = this.state;
+    const { router } = this.props;
+    const selectedKey = router.location.pathname.split('/')[1];
+    let openKey = '';
     for (const menuObj of allMenu) {
       if (menuObj.children) {
         for (const menuList of menuObj.children) {
           if (menuList.url === selectedKey) {
-            openKey = menuObj.url
+            openKey = menuObj.url;
             break
           }
         }
@@ -129,7 +129,7 @@ class Container extends React.Component {
           <Footer />
         </Layout>
       </Layout>
-    )
+    );
   }
 }
 
