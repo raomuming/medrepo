@@ -71,20 +71,24 @@ const Reform = Loadable({
 const Contents = () => (
   <Content className="content" id="content">
     <Route path="/home" component={Home} />
-    /*
     <Route path="/follow" component={Follow} />
     <Route path="/tools" component={Tools} />
-    <Route path="/music" component={Music} />
-    <Route path="/todo" component={Todo} />
-    <Route path="/album" component={Album} />
-    <Route path="/editor" component={Editor} />
-    <Route path="/todoList" component={TodoList} />
-    <Route path="/searchEngine" component={Search} />
-    <Route path="/waterfall" component={Waterfall} />
-    <Route path="/mock" component={Mock} />
-    <Route path="/reform" component={Reform} />
-    */
   </Content>
 )
+
+/*
+<Route path="/home" component={Home} />
+<Route path="/follow" component={Follow} />
+<Route path="/tools" component={Tools} />
+<Route path="/music" component={Music} />
+<Route path="/todo" component={Todo} />
+<Route path="/album" component={Album} />
+<Route path="/editor" component={Editor} />
+<Route path="/todoList" component={TodoList} />
+<Route path="/searchEngine" component={Search} />
+<Route path="/waterfall" component={Waterfall} />
+<Route path="/mock" component={Mock} />
+<Route path="/reform" component={Reform} />
+*/
 
 export default Contents;
