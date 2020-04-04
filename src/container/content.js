@@ -73,6 +73,7 @@ const Contents = () => (
     <Route path="/home" component={Home} />
     <Route path="/follow" component={Follow} />
     <Route path="/tools" component={Tools} />
+    <Route path="/music" component={Music} />
   </Content>
 )
 
