@@ -74,6 +74,7 @@ const Contents = () => (
     <Route path="/follow" component={Follow} />
     <Route path="/tools" component={Tools} />
     <Route path="/music" component={Music} />
+    <Route path="/album" component={Album} />
   </Content>
 )
 
