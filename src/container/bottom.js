@@ -12,7 +12,7 @@ export default class Bottom extends React.Component {
     };
   }
 
-  componentDidMout() {
+  componentDidMount() {
     this.interval = setInterval(this.tick, 1000);
   }
 
