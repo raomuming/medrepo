@@ -88,27 +88,27 @@ export default class Salary extends Component {
         </Row>
         <Row type="flex" justify="center" className="rowItem">
           <Col span={10}>
-            <Input addonBefore="失业保险：" addonAfter="￥" value={this.state.offwork} />
+            <Input addonBefore="失业保险：" addonAfter="元" value={this.state.offwork} />
           </Col>
         </Row>
         <Row type="flex" justify="center" className="rowItem">
           <Col span={10}>
-            <Input addonBefore="住房公积：" addonAfter="￥" value={this.state.house} />
+            <Input addonBefore="住房公积：" addonAfter="元" value={this.state.house} />
           </Col>
         </Row>
         <Row type="flex" justify="center" className="rowItem">
           <Col span={10}>
-            <Input addonBefore="税前工资：" addonAfter="￥" value={this.state.pretax} id="red" />
+            <Input addonBefore="税前工资：" addonAfter="元" value={this.state.pretax} id="red" />
           </Col>
         </Row>
         <Row type="flex" justify="center" className="rowItem">
           <Col span={10}>
-            <Input addonBefore="个人税收：" addonAfter="￥" value={this.state.tax} />
+            <Input addonBefore="个人税收：" addonAfter="元" value={this.state.tax} />
           </Col>
         </Row>
         <Row type="flex" justify="center" className="rowItem">
           <Col span={10}>
-            <Input addonBefore="税后工资：" addonAfter="￥" value={this.state.output} id="blue" />
+            <Input addonBefore="税后工资：" addonAfter="元" value={this.state.output} id="blue" />
           </Col>
         </Row>
         <Row type="flex" justify="center" className="rowItem">
