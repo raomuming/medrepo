@@ -5,6 +5,11 @@ const allMenu = [
     icon: 'home'
   },
   {
+    name: '学科真题',
+    url: 'real',
+    icon: 'bars'
+  },
+  {
     name: '音乐模块',
     url: 'music',
     icon: 'bars',

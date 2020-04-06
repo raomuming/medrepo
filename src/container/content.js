@@ -13,6 +13,11 @@ const Home = Loadable({
   loading: Loading
 })
 
+const Real = Loadable({
+  loader: () => import('../pages/real'),
+  loading: Loading
+})
+
 const Follow = Loadable({
   loader: () => import('../pages/follow'),
   loading: Loading
@@ -71,6 +76,7 @@ const Reform = Loadable({
 const Contents = () => (
   <Content className="content" id="content">
     <Route path="/home" component={Home} />
+    <Route path="/real" component={Real} />
     <Route path="/follow" component={Follow} />
     <Route path="/tools" component={Tools} />
     <Route path="/music" component={Music} />
