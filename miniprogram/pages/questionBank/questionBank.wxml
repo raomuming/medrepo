@@ -1,0 +1,9 @@
+<!--miniprogram/pages/questionBank/questionBank.wxml-->
+<med-block>
+  <van-grid clickable column-num="4">
+    <van-grid-item icon="home-o" link-type="navigateTo" url="/pages/index/index" text="错题" />
+    <van-grid-item icon="home-o" link-type="navigateTo" url="/pages/index/index" text="笔记" />
+    <van-grid-item icon="home-o" link-type="navigateTo" url="/pages/index/index" text="收藏" />
+    <van-grid-item icon="home-o" link-type="navigateTo" url="/pages/index/index" text="评论" />
+  </van-grid>
+</med-block>

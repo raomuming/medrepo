@@ -1,5 +1,6 @@
 {
   "pages": [
+    "pages/questionBank/questionBank",
     "pages/index/index",
     "pages/userConsole/userConsole",
     "pages/storageConsole/storageConsole",
@@ -21,10 +22,15 @@
     "navigationBarTitleText": "医学资料集",
     "navigationBarTextStyle": "black"
   },
+  "usingComponents": {
+    "med-block": "./components/med-block/index",
+    "van-grid": "./dist/grid/index",
+    "van-grid-item": "./dist/grid-item/index"
+  },
   "tabBar": {
     "list": [
       {
-        "pagePath": "pages/index/index",
+        "pagePath": "pages/questionBank/questionBank",
         "iconPath": "",
         "selectedIconPath": "",
         "text": "题库"

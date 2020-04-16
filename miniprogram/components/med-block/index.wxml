@@ -1,0 +1,4 @@
+<view class="custom-class med-block van-clearfix {{ padding ? 'med-block--padding' : '' }}">
+  <view wx:if="{{ title }}" class="med-block__title">{{ title }}</view>
+  <slot />
+</view>
