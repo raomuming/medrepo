@@ -25,7 +25,9 @@
   "usingComponents": {
     "med-block": "./components/med-block/index",
     "van-grid": "./dist/grid/index",
-    "van-grid-item": "./dist/grid-item/index"
+    "van-grid-item": "./dist/grid-item/index",
+    "van-tab": "./dist/tab/index",
+    "van-tabs": "./dist/tabs/index"
   },
   "tabBar": {
     "list": [

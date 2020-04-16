@@ -7,3 +7,18 @@
     <van-grid-item icon="home-o" link-type="navigateTo" url="/pages/index/index" text="评论" />
   </van-grid>
 </med-block>
+
+<med-block>
+  <van-tabs active="a">
+    <van-tab
+      wx:for="{{ tabsWithName }}"
+      wx:key="index"
+      name="{{ item.name }}"
+      title="{{ item.title }}"
+    >
+      <view class="content">
+        {{ '内容' + item.index}}
+      </view>
+    </van-tab>
+  </van-tabs>
+</med-block>
