@@ -16,8 +16,17 @@
       name="{{ item.name }}"
       title="{{ item.title }}"
     >
-      <view class="content">
-        {{ '内容' + item.index}}
+      <view
+        wx:for="{{ subjectList }}"
+        wx:for-item="item"
+      >
+        <van-cell title="{{ item.subject }}" />
+        <view
+          wx:for="{{ item.catalogues }}"
+          wx:for-item="catalogue"
+        >
+          <van-cell title="{{ catalogue.title }}" />
+        </view>
       </view>
     </van-tab>
   </van-tabs>

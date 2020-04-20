@@ -27,7 +27,8 @@
     "van-grid": "./dist/grid/index",
     "van-grid-item": "./dist/grid-item/index",
     "van-tab": "./dist/tab/index",
-    "van-tabs": "./dist/tabs/index"
+    "van-tabs": "./dist/tabs/index",
+    "van-cell": "./dist/cell/index"
   },
   "tabBar": {
     "list": [
