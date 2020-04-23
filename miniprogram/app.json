@@ -13,7 +13,8 @@
     "pages/openapi/cloudid/cloudid",
     "pages/im/im",
     "pages/im/room/room",
-    "pages/questionGrid/questionGrid"
+    "pages/questionGrid/questionGrid",
+    "pages/questionDetail/questionDetail"
   ],
   "window": {
     "backgroundColor": "#F6F6F6",

@@ -2,7 +2,9 @@
 <med-block>
   <van-grid column-num="6" border="{{ false }}">
     <van-grid-item use-slot wx:for="{{ questions }}" wx:for-item="index" wx:key="*this">
-      <view>
+      <view
+        bind:tap="onClick"
+      >
         {{ index + 1 }}
       </view>
     </van-grid-item>
