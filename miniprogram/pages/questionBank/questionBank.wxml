@@ -25,7 +25,7 @@
           wx:for="{{ item.catalogues }}"
           wx:for-item="catalogue"
         >
-          <van-cell title="{{ catalogue.title }}" />
+          <van-cell title="{{ catalogue.title }}" is-link url="/pages/questionGrid/questionGrid" />
         </view>
       </view>
     </van-tab>
