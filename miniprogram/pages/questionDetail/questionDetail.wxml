@@ -1,2 +1,17 @@
 <!--miniprogram/pages/questionDetail/questionDetail.wxml-->
-<text>miniprogram/pages/questionDetail/questionDetail.wxml</text>
+<med-block>
+  <text>{{ question.topic }}</text>
+  <van-radio-group
+    value="B"
+    data-key="radio3"
+    bind:change="onChange"
+  >
+    <view
+      wx:for="{{ question.options }}"
+      wx:for-item="option"
+    >
+      <van-radio name="{{ option.order }}">{{ option.order }}.{{ option.description }}</van-radio>
+    </view>
+  </van-radio-group>
+  <text>{{ question.key }}</text>
+</med-block>
